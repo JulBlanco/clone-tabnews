@@ -1,6 +1,7 @@
 import migrationRunner from "node-pg-migrate";
 import { join } from "node:path";
 import database from "infra/database.js";
+// eslint-disable-next-line no-unused-vars
 import status from "../status";
 
 export default async function migrations(request, response) {

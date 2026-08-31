@@ -1,4 +1,5 @@
 import database from "infra/database.js";
+// eslint-disable-next-line no-unused-vars
 import { version } from "react";
 
 async function status(request, response) {
